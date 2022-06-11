@@ -1,0 +1,40 @@
+body, html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #7159c1;
+}
+
+header{
+  background-color: yellow;
+
+  grid-column:1/3;
+}
+main{
+  background-color: blue;
+
+  grid-column:1/2;
+}
+
+aside{
+  background-color: green;
+ 
+
+  grid-column:2/3;
+}
+
+footer{
+  background-color: red;
+
+  grid-column:1/3;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh;
+}

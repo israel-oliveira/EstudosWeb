@@ -1,0 +1,26 @@
+h1,body,p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+section{
+    margin-top: 40px;
+    background-color: blue;
+    margin: auto;
+    width: 200px;
+}
+h1{
+    color: white;
+}
+table{
+    margin: 0 auto;
+}
+
